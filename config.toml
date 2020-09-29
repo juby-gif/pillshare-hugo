@@ -22,8 +22,8 @@ contact = "Contact Us"
 [params.hero]
 enable            = true
 bg                = "images/header-bg.jpg"
-title             = "Pillshare | Coming Soon...!"
-subtitle          = "The application you're looking for that tracks your health data and send to anywhere"
+title             = "Pillshare"
+subtitle          = "Coming soon....!"
 btnText           = "Get Started"
 
 # counter
@@ -95,8 +95,8 @@ delay   = "1.5s"
  [params.cta]
 enable      = true
 bg          = "images/call-to-action.jpg"
-title       = "Subscribe to our mailing list"
-subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+title       = "We would love to hear from you"
+subtitle    = "Share your feedbacks and opinions with us"
 
 [params.contact]
 enable      = true
