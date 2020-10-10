@@ -12,7 +12,7 @@ customHead = ""
 
 # Navigation
 [params.navigation]
-logo = "images/logo.png"
+logo = ""
 home = "Home"
 about = "About"
 service = "Features"
@@ -21,9 +21,9 @@ contact = "Contact Us"
 # Hero Area
 [params.hero]
 enable            = true
-bg                = "images/header-bg.jpg"
+bg                = "images/img2.jpg"
 title             = "Pillshare"
-subtitle          = "Coming soon....!"
+subtitle          = "Pillshare is a platform that you could track the pills you're taking and share the information to your family."
 btnText           = "Get Started"
 
 # counter
@@ -35,8 +35,8 @@ countdownDay  = "16"
 # About Section
 [params.about]
 enable      = true
-heading     = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam ipsa recusandae consequatur veniam, reiciendis odit quia eaque vel eius a."
-description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ulla-mco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, aspernatur."
+heading     = "Pillshare medication reminder app removes the stress "
+description = "Spend less time thinking about medications—and more time living your life. With Pillshare, you get personalized reminders for each of your medications and you track your vitals before, during and after you take your medication. Let your family receive real-time missed medication alerts."
 
 [[params.about.sliderItem]]
 image   = "images/about/1.jpg"
@@ -59,8 +59,8 @@ subtitle    = "Get your health be monitored and share your real-time data with f
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon    = "tf-strategy"
-title   = "Alerts when you miss the pills"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+title   = "Easy to Use"
+description = "Manage your medications with our user-friendly app. Get reminders on time, every time."
 delay   = "0.8s"
 
 [[params.service.serviceItem]]
@@ -68,27 +68,28 @@ delay   = "0.8s"
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon    = "tf-circle-compass"
-title   = "Monitor your pills intake"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay   = "1s"
+title   = "Refill Reminders"
+description = "Be notified when your prescriptions are running low so you are never without your medication"
+delay   = "2s"
 
-[[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-anchor2"
-title   = "Track your health data"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay   = "1.2s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
 icon    = "tf-globe"
-title   = "Share it with your family"
-description = "Lorem ipsum dolor sit amet, con-sectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-delay   = "1.5s"
+title   = "Family Scheduling"
+description = "List your family members to receive notifications if you accidentally miss your medication."
+delay   = "3.2s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-anchor2"
+title   = "Track health data"
+description = "Track your health status consistently for accurate results"
+delay   = "4.4s"
 
 
 # Call to Action Section
