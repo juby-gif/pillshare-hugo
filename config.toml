@@ -50,7 +50,7 @@ image   = "images/about/3.jpg"
 # Service Section
 [params.service]
 enable      = true
-title       = "Why you like Pillshare"
+title       = "Why do you like Pillshare"
 subtitle    = "Get your health be monitored and share your real-time data with family"
 
 [[params.service.serviceItem]]
