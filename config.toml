@@ -12,7 +12,7 @@ customHead = ""
 
 # Navigation
 [params.navigation]
-logo = ""
+logo = "images/logo.png"
 home = "Home"
 about = "About"
 service = "Features"
@@ -24,10 +24,10 @@ enable            = true
 bg                = "images/img2.jpg"
 title             = "Pillshare"
 subtitle          = "Pillshare is a platform that you could track the pills you're taking and share the information to your family."
-btnText           = "Get Started"
+btnText           = "Let's Get Started!"
 
 # counter
-disableCountdown  = false
+disableCountdown  = true
 countdownYear = "2020"
 countdownMonth = "10"
 countdownDay  = "16"
@@ -35,7 +35,7 @@ countdownDay  = "16"
 # About Section
 [params.about]
 enable      = true
-heading     = "Pillshare medication reminder app removes the stress "
+heading     = "Pillshare daily medication tracker app removes the stress "
 description = "Spend less time thinking about medications—and more time living your life. With Pillshare, you get personalized reminders for each of your medications and you track your vitals before, during and after you take your medication. Let your family receive real-time missed medication alerts."
 
 [[params.about.sliderItem]]
@@ -50,46 +50,76 @@ image   = "images/about/3.jpg"
 # Service Section
 [params.service]
 enable      = true
-title       = "Features of Pillshare"
+title       = "Why you like Pillshare"
 subtitle    = "Get your health be monitored and share your real-time data with family"
 
-
 [[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-strategy"
+icon    = "tf-ion-android-hand"
 title   = "Easy to Use"
 description = "Manage your medications with our user-friendly app. Get reminders on time, every time."
 delay   = "0.8s"
 
 [[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-circle-compass"
+icon    = "tf-ion-android-notifications"
 title   = "Refill Reminders"
 description = "Be notified when your prescriptions are running low so you are never without your medication"
-delay   = "2s"
-
+delay   = "1s"
 
 [[params.service.serviceItem]]
-# give icon(themefisher icon font), title, description
-# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
-# use delay for reveal items one by one
-icon    = "tf-globe"
+icon    = "tf-ion-ios-people"
 title   = "Family Scheduling"
 description = "List your family members to receive notifications if you accidentally miss your medication."
-delay   = "3.2s"
+delay   = "1.2s"
+
+[[params.service.serviceItem]]
+icon    = "tf-linegraph"
+title   = "Track your health data"
+description = "Track your health vitals status continuously for accurate results"
+delay   = "1.5s"
+
+[[params.service.serviceItem]]
+icon    = "tf-ion-alert-circled"
+title   = "Get alerts"
+description = "Sents out alerts whenever you miss your pills"
+delay   = "1.8s"
 
 [[params.service.serviceItem]]
 # give icon(themefisher icon font), title, description
 # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
 # use delay for reveal items one by one
-icon    = "tf-anchor2"
-title   = "Track health data"
-description = "Track your health status consistently for accurate results"
-delay   = "4.4s"
+icon    = "tf-ion-android-document"
+title   = "Weekly report"
+description = "Tracks your data and generate a report once a week and sent it to you"
+delay   = "2.0s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-android-share-alt"
+title   = "Remote Sharing"
+description = "Share you real-time data to anyone that you like"
+delay   = "2.2s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-android-call"
+title   = "Connect to Pharmacy"
+description = "Connect to your nearby pharmacy to check for the medication you are running out"
+delay   = "2.5s"
+
+[[params.service.serviceItem]]
+# give icon(themefisher icon font), title, description
+# more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+# use delay for reveal items one by one
+icon    = "tf-ion-compose"
+title   = "Give your Feedback"
+description = "Takes your feedback when before and after you take the medication"
+delay   = "2.3s"
+
+
 
 
 # Call to Action Section
